@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67352A5321662651008CBC98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67352A5221662651008CBC98 /* AppDelegate.swift */; };
+		67352A5521662651008CBC98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67352A5421662651008CBC98 /* ViewController.swift */; };
+		67352A5821662651008CBC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67352A5621662651008CBC98 /* Main.storyboard */; };
+		67352A5A21662652008CBC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67352A5921662652008CBC98 /* Assets.xcassets */; };
+		67352A5D21662652008CBC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67352A5B21662652008CBC98 /* LaunchScreen.storyboard */; };
+		67352A6821662652008CBC98 /* Bai2____Square_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67352A6721662652008CBC98 /* Bai2____Square_ControlTests.swift */; };
+		67352A7321662652008CBC98 /* Bai2____Square_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67352A7221662652008CBC98 /* Bai2____Square_ControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67352A6421662652008CBC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67352A4721662651008CBC98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67352A4E21662651008CBC98;
+			remoteInfo = "Bai2. - Square Control";
+		};
+		67352A6F21662652008CBC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67352A4721662651008CBC98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67352A4E21662651008CBC98;
+			remoteInfo = "Bai2. - Square Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67352A4F21662651008CBC98 /* Bai2. - Square Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bai2. - Square Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67352A5221662651008CBC98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67352A5421662651008CBC98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67352A5721662651008CBC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67352A5921662652008CBC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67352A5C21662652008CBC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67352A5E21662652008CBC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67352A6321662652008CBC98 /* Bai2. - Square ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bai2. - Square ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67352A6721662652008CBC98 /* Bai2____Square_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bai2____Square_ControlTests.swift"; sourceTree = "<group>"; };
+		67352A6921662652008CBC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67352A6E21662652008CBC98 /* Bai2. - Square ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bai2. - Square ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67352A7221662652008CBC98 /* Bai2____Square_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bai2____Square_ControlUITests.swift"; sourceTree = "<group>"; };
+		67352A7421662652008CBC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67352A4C21662651008CBC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67352A6021662652008CBC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67352A6B21662652008CBC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67352A4621662651008CBC98 = {
+			isa = PBXGroup;
+			children = (
+				67352A5121662651008CBC98 /* Bai2. - Square Control */,
+				67352A6621662652008CBC98 /* Bai2. - Square ControlTests */,
+				67352A7121662652008CBC98 /* Bai2. - Square ControlUITests */,
+				67352A5021662651008CBC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67352A5021662651008CBC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67352A4F21662651008CBC98 /* Bai2. - Square Control.app */,
+				67352A6321662652008CBC98 /* Bai2. - Square ControlTests.xctest */,
+				67352A6E21662652008CBC98 /* Bai2. - Square ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67352A5121662651008CBC98 /* Bai2. - Square Control */ = {
+			isa = PBXGroup;
+			children = (
+				67352A5221662651008CBC98 /* AppDelegate.swift */,
+				67352A5421662651008CBC98 /* ViewController.swift */,
+				67352A5621662651008CBC98 /* Main.storyboard */,
+				67352A5921662652008CBC98 /* Assets.xcassets */,
+				67352A5B21662652008CBC98 /* LaunchScreen.storyboard */,
+				67352A5E21662652008CBC98 /* Info.plist */,
+			);
+			path = "Bai2. - Square Control";
+			sourceTree = "<group>";
+		};
+		67352A6621662652008CBC98 /* Bai2. - Square ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				67352A6721662652008CBC98 /* Bai2____Square_ControlTests.swift */,
+				67352A6921662652008CBC98 /* Info.plist */,
+			);
+			path = "Bai2. - Square ControlTests";
+			sourceTree = "<group>";
+		};
+		67352A7121662652008CBC98 /* Bai2. - Square ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67352A7221662652008CBC98 /* Bai2____Square_ControlUITests.swift */,
+				67352A7421662652008CBC98 /* Info.plist */,
+			);
+			path = "Bai2. - Square ControlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67352A4E21662651008CBC98 /* Bai2. - Square Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67352A7721662652008CBC98 /* Build configuration list for PBXNativeTarget "Bai2. - Square Control" */;
+			buildPhases = (
+				67352A4B21662651008CBC98 /* Sources */,
+				67352A4C21662651008CBC98 /* Frameworks */,
+				67352A4D21662651008CBC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bai2. - Square Control";
+			productName = "Bai2. - Square Control";
+			productReference = 67352A4F21662651008CBC98 /* Bai2. - Square Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67352A6221662652008CBC98 /* Bai2. - Square ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67352A7A21662652008CBC98 /* Build configuration list for PBXNativeTarget "Bai2. - Square ControlTests" */;
+			buildPhases = (
+				67352A5F21662652008CBC98 /* Sources */,
+				67352A6021662652008CBC98 /* Frameworks */,
+				67352A6121662652008CBC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67352A6521662652008CBC98 /* PBXTargetDependency */,
+			);
+			name = "Bai2. - Square ControlTests";
+			productName = "Bai2. - Square ControlTests";
+			productReference = 67352A6321662652008CBC98 /* Bai2. - Square ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67352A6D21662652008CBC98 /* Bai2. - Square ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67352A7D21662652008CBC98 /* Build configuration list for PBXNativeTarget "Bai2. - Square ControlUITests" */;
+			buildPhases = (
+				67352A6A21662652008CBC98 /* Sources */,
+				67352A6B21662652008CBC98 /* Frameworks */,
+				67352A6C21662652008CBC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67352A7021662652008CBC98 /* PBXTargetDependency */,
+			);
+			name = "Bai2. - Square ControlUITests";
+			productName = "Bai2. - Square ControlUITests";
+			productReference = 67352A6E21662652008CBC98 /* Bai2. - Square ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67352A4721662651008CBC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = BinhPQ;
+				TargetAttributes = {
+					67352A4E21662651008CBC98 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					67352A6221662652008CBC98 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 67352A4E21662651008CBC98;
+					};
+					67352A6D21662652008CBC98 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 67352A4E21662651008CBC98;
+					};
+				};
+			};
+			buildConfigurationList = 67352A4A21662651008CBC98 /* Build configuration list for PBXProject "Bai2. - Square Control" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67352A4621662651008CBC98;
+			productRefGroup = 67352A5021662651008CBC98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67352A4E21662651008CBC98 /* Bai2. - Square Control */,
+				67352A6221662652008CBC98 /* Bai2. - Square ControlTests */,
+				67352A6D21662652008CBC98 /* Bai2. - Square ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67352A4D21662651008CBC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67352A5D21662652008CBC98 /* LaunchScreen.storyboard in Resources */,
+				67352A5A21662652008CBC98 /* Assets.xcassets in Resources */,
+				67352A5821662651008CBC98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67352A6121662652008CBC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67352A6C21662652008CBC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67352A4B21662651008CBC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67352A5521662651008CBC98 /* ViewController.swift in Sources */,
+				67352A5321662651008CBC98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67352A5F21662652008CBC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67352A6821662652008CBC98 /* Bai2____Square_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67352A6A21662652008CBC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67352A7321662652008CBC98 /* Bai2____Square_ControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67352A6521662652008CBC98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67352A4E21662651008CBC98 /* Bai2. - Square Control */;
+			targetProxy = 67352A6421662652008CBC98 /* PBXContainerItemProxy */;
+		};
+		67352A7021662652008CBC98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67352A4E21662651008CBC98 /* Bai2. - Square Control */;
+			targetProxy = 67352A6F21662652008CBC98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67352A5621662651008CBC98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67352A5721662651008CBC98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67352A5B21662652008CBC98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67352A5C21662652008CBC98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67352A7521662652008CBC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67352A7621662652008CBC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67352A7821662652008CBC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bai2. - Square Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangbinh.Bai2----Square-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67352A7921662652008CBC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bai2. - Square Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangbinh.Bai2----Square-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67352A7B21662652008CBC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bai2. - Square ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangbinh.Bai2----Square-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bai2. - Square Control.app/Bai2. - Square Control";
+			};
+			name = Debug;
+		};
+		67352A7C21662652008CBC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bai2. - Square ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangbinh.Bai2----Square-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bai2. - Square Control.app/Bai2. - Square Control";
+			};
+			name = Release;
+		};
+		67352A7E21662652008CBC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bai2. - Square ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangbinh.Bai2----Square-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bai2. - Square Control";
+			};
+			name = Debug;
+		};
+		67352A7F21662652008CBC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bai2. - Square ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangbinh.Bai2----Square-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bai2. - Square Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67352A4A21662651008CBC98 /* Build configuration list for PBXProject "Bai2. - Square Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67352A7521662652008CBC98 /* Debug */,
+				67352A7621662652008CBC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67352A7721662652008CBC98 /* Build configuration list for PBXNativeTarget "Bai2. - Square Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67352A7821662652008CBC98 /* Debug */,
+				67352A7921662652008CBC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67352A7A21662652008CBC98 /* Build configuration list for PBXNativeTarget "Bai2. - Square ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67352A7B21662652008CBC98 /* Debug */,
+				67352A7C21662652008CBC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67352A7D21662652008CBC98 /* Build configuration list for PBXNativeTarget "Bai2. - Square ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67352A7E21662652008CBC98 /* Debug */,
+				67352A7F21662652008CBC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67352A4721662651008CBC98 /* Project object */;
+}

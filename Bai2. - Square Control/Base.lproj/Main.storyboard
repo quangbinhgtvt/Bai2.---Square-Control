@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bai2____Square_Control" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wvz-rQ-RFh">
+                                <rect key="frame" x="235.5" y="699" width="40" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="aMA-FM-ieg"/>
+                                    <constraint firstAttribute="width" constant="40" id="oHR-Tu-sOy"/>
+                                </constraints>
+                                <state key="normal" image="icons8-right-30"/>
+                                <connections>
+                                    <action selector="moveRightSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v03-xI-PXb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tj7-2O-UbY">
+                                <rect key="frame" x="187" y="742" width="40" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="AqM-uZ-rKW"/>
+                                    <constraint firstAttribute="width" constant="40" id="qR6-73-OFY"/>
+                                </constraints>
+                                <state key="normal" image="icons8-down-arrow-30">
+                                    <color key="titleColor" red="0.57938613029999997" green="1" blue="0.52201339759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveDownSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7W4-aR-SUa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xt-oZ-SDP">
+                                <rect key="frame" x="139.5" y="699" width="40" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Al1-ht-nP9"/>
+                                    <constraint firstAttribute="height" constant="40" id="lsG-ey-CnK"/>
+                                </constraints>
+                                <state key="normal" image="icons8-left-30"/>
+                                <connections>
+                                    <action selector="moveLeftSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ChH-Ip-EPT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPC-9t-qeB">
+                                <rect key="frame" x="187" y="657" width="40" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="IFZ-d0-1ay"/>
+                                    <constraint firstAttribute="width" constant="40" id="opW-Pm-0Oh"/>
+                                </constraints>
+                                <state key="normal" image="icons8-up-30"/>
+                                <connections>
+                                    <action selector="moveUpSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oxy-l2-s3f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tj7-2O-UbY" firstAttribute="top" secondItem="jPC-9t-qeB" secondAttribute="bottom" constant="45" id="7HP-qN-bxQ"/>
+                            <constraint firstItem="Wvz-rQ-RFh" firstAttribute="leading" secondItem="5Xt-oZ-SDP" secondAttribute="trailing" constant="56" id="GZF-wS-sUv"/>
+                            <constraint firstItem="TBA-7W-2lK" firstAttribute="bottom" secondItem="tj7-2O-UbY" secondAttribute="bottom" constant="80" id="Xon-HX-jTf"/>
+                            <constraint firstItem="5Xt-oZ-SDP" firstAttribute="centerY" secondItem="Wvz-rQ-RFh" secondAttribute="centerY" id="hjt-YG-5G1"/>
+                            <constraint firstItem="jPC-9t-qeB" firstAttribute="centerX" secondItem="tj7-2O-UbY" secondAttribute="centerX" id="jkd-Mt-Nlm"/>
+                            <constraint firstItem="tj7-2O-UbY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oEN-Vd-heD"/>
+                            <constraint firstItem="Wvz-rQ-RFh" firstAttribute="top" secondItem="jPC-9t-qeB" secondAttribute="bottom" constant="2" id="reL-Sn-n8A"/>
+                            <constraint firstItem="Wvz-rQ-RFh" firstAttribute="leading" secondItem="jPC-9t-qeB" secondAttribute="trailing" constant="8.5" id="tTL-iP-fij"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TBA-7W-2lK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-down-arrow-30" width="30" height="30"/>
+        <image name="icons8-left-30" width="30" height="30"/>
+        <image name="icons8-right-30" width="30" height="30"/>
+        <image name="icons8-up-30" width="30" height="30"/>
+    </resources>
+</document>
